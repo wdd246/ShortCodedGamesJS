@@ -1,0 +1,47 @@
+<html>
+<head>
+    <style>
+        html,body{
+        margin:0;
+        padding: 0;
+    }
+    body{
+       overflow: hidden;
+       background-color: black;
+    }
+    #l{
+        float: left;
+    }
+    #r{
+        float: right;
+    }
+    #r,#l{
+        position: relative;
+        width: 30px;
+        height: 200px;
+        background-color: white;     
+        }
+    #b{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color:white;
+        border-radius: 50%;
+    }
+    #d,#sl,#sr{
+        font-size: 1000%;
+        color: white;
+        z-index: 10;
+    }
+    </style>
+</head>
+<body>
+    <div id="l"></div>
+    <div id="b"></div>
+    <div id="r"></div>
+    <center>
+    <span id="sl">0 </span><span id="d"> | </span><span id="sr"> 0</span> 
+<script src="ping.js"></script>
+</body>
+</html>
+        
